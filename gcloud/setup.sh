@@ -3,7 +3,7 @@
 STARTUP_VERSION=1
 STARTUP_MARK=/var/startup.script.$STARTUP_VERSION
 
-# Exit if this script has already ran
+# Exit if this script has already run
 if [[ -f $STARTUP_MARK ]]; then
   exit 0
 fi
